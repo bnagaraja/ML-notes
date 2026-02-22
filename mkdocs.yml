@@ -1,0 +1,69 @@
+site_name: Wizardly
+site_description: Things Made Simple - Structured Learning Platform
+site_author: Nagaraja
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+
+plugins:
+  - search
+  - mkdocs-jupyter
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - codehilite
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.tabbed
+
+nav:
+  - Home: index.md
+
+ # - Foundations:
+  #    - Math Basics: foundations/math_basics.md
+   #   - Linear Algebra: foundations/linear_algebra.md
+    #  - Probability: foundations/probability.md
+     # - Statistics: foundations/statistics.md
+
+  - Python:
+      - Python Basics: python/basics.md
+      - Numpy & Pandas: python/data_libraries.md
+
+  - Machine Learning:
+      - ML Overview: ml/overview.md
+      - Supervised Learning:
+          - Regression: ml/supervised/regression.md
+          - Classification: ml/supervised/classification.md
+      - Unsupervised Learning:
+          - Clustering: ml/unsupervised/clustering.md
+      - Model Evaluation: ml/evaluation.md
+  #    - ML Projects: ml/projects.md
+
+  - Deep Learning:
+      - Neural Networks: dl/nn_basics.md
+      - CNN: dl/cnn.md
+      - NLP: dl/nlp.md
+
+  - MLOps:
+      - Model Deployment: mlops/deployment.md
+      - Monitoring: mlops/monitoring.md
+
+  #- OCR Systems:
+   #   - OCR Overview: ocr/overview.md
+    #  - Form Extraction: ocr/form_extraction.ipynb
+
+  #- System Design:
+   #   - ML System Design: system_design/ml_system.md
