@@ -1,2 +1,0 @@
-# ML-notes
-Machine Learning
