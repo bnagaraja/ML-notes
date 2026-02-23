@@ -18,19 +18,19 @@
         
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.2">
     
     
       
-        <title>Wizardly</title>
+        <title>Rnn lstm - Wizardly</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -49,7 +49,7 @@
       
     
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -73,11 +73,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#welcome-to-mkdocs" class="md-skip">
-          Skip to content
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -88,7 +83,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="Wizardly" class="md-header__button md-logo" aria-label="Wizardly" data-md-component="logo">
+    <a href="../.." title="Wizardly" class="md-header__button md-logo" aria-label="Wizardly" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -108,7 +103,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Home
+              Rnn lstm
             
           </span>
         </div>
@@ -191,11 +186,9 @@
   
   
   
-    
   
-  
-    <li class="md-tabs__item md-tabs__item--active">
-      <a href="." class="md-tabs__link">
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
         
   
   
@@ -216,7 +209,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="python/basics.md" class="md-tabs__link">
+        <a href="../../python/basics.md" class="md-tabs__link">
           
   
   
@@ -236,7 +229,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="ml/overview.md" class="md-tabs__link">
+        <a href="../../ml/overview.md" class="md-tabs__link">
           
   
   
@@ -256,7 +249,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="dl/nn_basics.md" class="md-tabs__link">
+        <a href="../../dl/nn_basics.md" class="md-tabs__link">
           
   
   
@@ -276,7 +269,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="mlops/deployment.md" class="md-tabs__link">
+        <a href="../../mlops/deployment.md" class="md-tabs__link">
           
   
   
@@ -310,7 +303,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Wizardly" class="md-nav__button md-logo" aria-label="Wizardly" data-md-component="logo">
+    <a href="../.." title="Wizardly" class="md-nav__button md-logo" aria-label="Wizardly" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -325,37 +318,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Home
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -371,37 +337,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#commands" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Commands
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -467,7 +402,7 @@
   
   
     <li class="md-nav__item">
-      <a href="python/basics.md" class="md-nav__link">
+      <a href="../../python/basics.md" class="md-nav__link">
         
   
   
@@ -495,7 +430,7 @@
   
   
     <li class="md-nav__item">
-      <a href="python/data_libraries.md" class="md-nav__link">
+      <a href="../../python/data_libraries.md" class="md-nav__link">
         
   
   
@@ -584,7 +519,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ml/overview.md" class="md-nav__link">
+      <a href="../../ml/overview.md" class="md-nav__link">
         
   
   
@@ -666,7 +601,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ml/supervised/regression.md" class="md-nav__link">
+      <a href="../../ml/supervised/regression.md" class="md-nav__link">
         
   
   
@@ -694,7 +629,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ml/supervised/classification.md" class="md-nav__link">
+      <a href="../../ml/supervised/classification.md" class="md-nav__link">
         
   
   
@@ -784,7 +719,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ml/unsupervised/clustering.md" class="md-nav__link">
+      <a href="../../ml/unsupervised/clustering.md" class="md-nav__link">
         
   
   
@@ -820,7 +755,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ml/evaluation.md" class="md-nav__link">
+      <a href="../../ml/evaluation.md" class="md-nav__link">
         
   
   
@@ -909,7 +844,7 @@
   
   
     <li class="md-nav__item">
-      <a href="dl/nn_basics.md" class="md-nav__link">
+      <a href="../../dl/nn_basics.md" class="md-nav__link">
         
   
   
@@ -937,7 +872,7 @@
   
   
     <li class="md-nav__item">
-      <a href="dl/cnn.md" class="md-nav__link">
+      <a href="../../dl/cnn.md" class="md-nav__link">
         
   
   
@@ -965,7 +900,7 @@
   
   
     <li class="md-nav__item">
-      <a href="dl/nlp.md" class="md-nav__link">
+      <a href="../../dl/nlp.md" class="md-nav__link">
         
   
   
@@ -1054,7 +989,7 @@
   
   
     <li class="md-nav__item">
-      <a href="mlops/deployment.md" class="md-nav__link">
+      <a href="../../mlops/deployment.md" class="md-nav__link">
         
   
   
@@ -1082,7 +1017,7 @@
   
   
     <li class="md-nav__item">
-      <a href="mlops/monitoring.md" class="md-nav__link">
+      <a href="../../mlops/monitoring.md" class="md-nav__link">
         
   
   
@@ -1127,27 +1062,6 @@
   
   
   
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#commands" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Commands
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
   
 </nav>
                   </div>
@@ -1164,167 +1078,9 @@
 
 
 
-<h1 id="welcome-to-mkdocs">Welcome to MkDocs<a class="headerlink" href="#welcome-to-mkdocs" title="Permanent link">&para;</a></h1>
-<p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands<a class="headerlink" href="#commands" title="Permanent link">&para;</a></h2>
-<ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
-</ul>
-<hr />
-<h1 id="machine-learning-ai-roadmap">🚀 Machine Learning &amp; AI Roadmap<a class="headerlink" href="#machine-learning-ai-roadmap" title="Permanent link">&para;</a></h1>
-<p>A structured, beginner-friendly roadmap to move from foundations to AI engineering.</p>
-<p>This roadmap is designed for practical understanding, real-world skills, and industry readiness.</p>
-<hr />
-<h1 id="phase-1-foundations-46-weeks">🧮 Phase 1: Foundations (4–6 Weeks)<a class="headerlink" href="#phase-1-foundations-46-weeks" title="Permanent link">&para;</a></h1>
-<h2 id="1-mathematics-practical-level-only">1️⃣ Mathematics (Practical Level Only)<a class="headerlink" href="#1-mathematics-practical-level-only" title="Permanent link">&para;</a></h2>
-<p>Focus on <strong>understanding concepts</strong>, not theoretical proofs.</p>
-<h3 id="topics">Topics<a class="headerlink" href="#topics" title="Permanent link">&para;</a></h3>
-<ul>
-<li>Linear Algebra (vectors, matrices, dot product)</li>
-<li>Statistics (mean, variance, probability, distributions)</li>
-<li>Calculus (basic derivatives, gradient descent intuition)</li>
-</ul>
-<h3 id="recommended-resources">Recommended Resources<a class="headerlink" href="#recommended-resources" title="Permanent link">&para;</a></h3>
-<ul>
-<li><em>Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow</em></li>
-<li>Khan Academy (for math basics)</li>
-</ul>
-<hr />
-<h2 id="2-python-for-machine-learning-23-weeks">2️⃣ Python for Machine Learning (2–3 Weeks)<a class="headerlink" href="#2-python-for-machine-learning-23-weeks" title="Permanent link">&para;</a></h2>
-<p>You don’t need deep Python expertise — just ecosystem fluency.</p>
-<h3 id="learn">Learn<a class="headerlink" href="#learn" title="Permanent link">&para;</a></h3>
-<ul>
-<li>NumPy</li>
-<li>Pandas</li>
-<li>Matplotlib</li>
-<li>Jupyter Notebook</li>
-<li>Virtual environments</li>
-</ul>
-<h3 id="if-you-come-from-java">If You Come from Java<a class="headerlink" href="#if-you-come-from-java" title="Permanent link">&para;</a></h3>
-<table>
-<thead>
-<tr>
-<th>Python Ecosystem</th>
-<th>Java Equivalent</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>pip</code></td>
-<td>Maven dependencies</td>
-</tr>
-<tr>
-<td>Jupyter Notebook</td>
-<td>Interactive REPL</td>
-</tr>
-<tr>
-<td>Pandas</td>
-<td>Stream API + collections</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h1 id="phase-2-core-machine-learning-23-months">🤖 Phase 2: Core Machine Learning (2–3 Months)<a class="headerlink" href="#phase-2-core-machine-learning-23-months" title="Permanent link">&para;</a></h1>
-<h2 id="1-supervised-learning">1️⃣ Supervised Learning<a class="headerlink" href="#1-supervised-learning" title="Permanent link">&para;</a></h2>
-<p>Learn the most important algorithms:</p>
-<ul>
-<li>Linear Regression</li>
-<li>Logistic Regression</li>
-<li>Decision Trees</li>
-<li>Random Forest</li>
-<li>SVM</li>
-<li>KNN</li>
-</ul>
-<h3 id="use">Use<a class="headerlink" href="#use" title="Permanent link">&para;</a></h3>
-<ul>
-<li><code>scikit-learn</code></li>
-</ul>
-<h3 id="understand-deeply">Understand Deeply<a class="headerlink" href="#understand-deeply" title="Permanent link">&para;</a></h3>
-<ul>
-<li>Overfitting</li>
-<li>Bias vs Variance</li>
-<li>Train/Test split</li>
-<li>Cross validation</li>
-</ul>
-<hr />
-<h2 id="2-unsupervised-learning">2️⃣ Unsupervised Learning<a class="headerlink" href="#2-unsupervised-learning" title="Permanent link">&para;</a></h2>
-<ul>
-<li>K-Means</li>
-<li>Hierarchical Clustering</li>
-<li>PCA</li>
-</ul>
-<hr />
-<h2 id="3-model-evaluation">3️⃣ Model Evaluation<a class="headerlink" href="#3-model-evaluation" title="Permanent link">&para;</a></h2>
-<ul>
-<li>Precision / Recall</li>
-<li>F1 Score</li>
-<li>ROC Curve</li>
-<li>Confusion Matrix</li>
-</ul>
-<hr />
-<h1 id="phase-3-deep-learning-23-months">🧠 Phase 3: Deep Learning (2–3 Months)<a class="headerlink" href="#phase-3-deep-learning-23-months" title="Permanent link">&para;</a></h1>
-<p>Move beyond traditional ML.</p>
-<h3 id="learn_1">Learn<a class="headerlink" href="#learn_1" title="Permanent link">&para;</a></h3>
-<ul>
-<li>ANN (Artificial Neural Networks)</li>
-<li>CNN (for images)</li>
-<li>RNN / LSTM (for sequence data)</li>
-</ul>
-<h3 id="frameworks">Frameworks<a class="headerlink" href="#frameworks" title="Permanent link">&para;</a></h3>
-<ul>
-<li>TensorFlow</li>
-<li>PyTorch</li>
-</ul>
-<p>If you prefer structured enterprise style → start with TensorFlow<br />
-If you prefer research flexibility → choose PyTorch</p>
-<hr />
-<h1 id="phase-4-modern-ai-llms-genai-12-months">🤖 Phase 4: Modern AI (LLMs &amp; GenAI) (1–2 Months)<a class="headerlink" href="#phase-4-modern-ai-llms-genai-12-months" title="Permanent link">&para;</a></h1>
-<p>Market demand in 2026 heavily favors GenAI skills.</p>
-<h3 id="learn_2">Learn<a class="headerlink" href="#learn_2" title="Permanent link">&para;</a></h3>
-<ul>
-<li>Transformers</li>
-<li>Attention mechanism</li>
-<li>Prompt Engineering</li>
-<li>RAG (Retrieval Augmented Generation)</li>
-<li>Vector databases</li>
-</ul>
-<h3 id="explore">Explore<a class="headerlink" href="#explore" title="Permanent link">&para;</a></h3>
-<ul>
-<li>OpenAI APIs</li>
-<li>LangChain</li>
-<li>Hugging Face Transformers</li>
-</ul>
-<hr />
-<h1 id="phase-5-ai-engineering-your-advantage-zone">🏗️ Phase 5: AI Engineering (Your Advantage Zone)<a class="headerlink" href="#phase-5-ai-engineering-your-advantage-zone" title="Permanent link">&para;</a></h1>
-<p>This is where experienced backend engineers shine.</p>
-<p>Focus on:</p>
-<ul>
-<li>Model deployment (Docker)</li>
-<li>REST APIs serving models</li>
-<li>CI/CD for ML</li>
-<li>Monitoring</li>
-<li>MLOps</li>
-</ul>
-<h3 id="tools">Tools<a class="headerlink" href="#tools" title="Permanent link">&para;</a></h3>
-<ul>
-<li>MLflow</li>
-<li>Kubeflow</li>
-<li>Docker</li>
-<li>Kubernetes</li>
-</ul>
-<h3 id="enterprise-integration">Enterprise Integration<a class="headerlink" href="#enterprise-integration" title="Permanent link">&para;</a></h3>
-<p>You can:
-- Build Spring Boot apps calling ML services
-- Integrate AI into enterprise systems
-- Design scalable AI architecture</p>
-<p>This is <strong>high value in the Indian market</strong>.</p>
-<hr />
-<h1 id="final-goal">🎯 Final Goal<a class="headerlink" href="#final-goal" title="Permanent link">&para;</a></h1>
-<p>Not just to learn ML —
-But to become a <strong>complete AI Engineer capable of building production-ready intelligent systems.</strong></p>
+  <h1>Rnn lstm</h1>
+
+
 
 
 
@@ -1380,10 +1136,10 @@ But to become a <strong>complete AI Engineer capable of building production-read
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "search.highlight", "content.code.copy"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "search.highlight", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
     
   </body>
