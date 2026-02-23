@@ -11,6 +11,8 @@ theme:
     - navigation.top
     - search.highlight
     - content.code.copy
+  extra_css:
+  - styles/extra.css
   palette:
     - scheme: default
       primary: indigo
@@ -32,24 +34,24 @@ markdown_extensions:
 nav:
   - Home: index.md
 
- # - Foundations:
-  #    - Math Basics: foundations/math_basics.md
-   #   - Linear Algebra: foundations/linear_algebra.md
-    #  - Probability: foundations/probability.md
-     # - Statistics: foundations/statistics.md
+  - Foundations:
+      - Math Basics: foundations/math_basics.md
+      - Linear Algebra: foundations/linear_algebra.md
+      - Probability: foundations/probability.md
+      - Statistics: foundations/statistics.md
 
   - Python:
       - Python Basics: python/basics.md
       - Numpy & Pandas: python/data_libraries.md
 
   - Machine Learning:
-      - ML Overview: ml/overview.md
+      - ML Overview: ML/index.md
       - Supervised Learning:
-          - Regression: ml/supervised/regression.md
-          - Classification: ml/supervised/classification.md
+          - Regression: ML/supervised/regression.md
+          - Classification: ML/supervised/classification.md
       - Unsupervised Learning:
-          - Clustering: ml/unsupervised/clustering.md
-      - Model Evaluation: ml/evaluation.md
+          - Clustering: ML/unsupervised/clustering.md
+      - Model Evaluation: ML/evaluation.md
   #    - ML Projects: ml/projects.md
 
   - Deep Learning:
