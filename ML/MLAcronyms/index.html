@@ -124,6 +124,12 @@
     <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
     
   
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="cyan"  aria-hidden="true"  type="radio" name="__palette" id="__palette_1">
+    
+  
 </form>
       
     
@@ -234,7 +240,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../python/basics.md" class="md-tabs__link">
+        <a href="../../python/" class="md-tabs__link">
           
   
   
@@ -600,7 +606,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../python/basics.md" class="md-nav__link">
+      <a href="../../python/" class="md-nav__link">
         
   
   
@@ -644,6 +650,96 @@
   
 
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tools
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Tools
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../python/tools/sklearn/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Scikit Learn
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -799,42 +895,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../supervised/regression.md" class="md-nav__link">
+      <a href="../supervised/introduction/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Regression
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../supervised/classification.md" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Classification
+    Supervised Learning
   
 
     
@@ -1309,6 +1377,67 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#supervised-machine-learning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        supervised machine learning
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#feature" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        feature
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#features-label" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Features Label
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#temperature-humidity-pressure-test-score" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Temperature Humidity Pressure Test score
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Temperature Humidity Pressure Test score">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#label" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        label
+      
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1334,12 +1463,22 @@
 <h1 id="ml-acronyms">ML - Acronyms<a class="headerlink" href="#ml-acronyms" title="Permanent link">&para;</a></h1>
 <h3 id="resources">Resources<a class="headerlink" href="#resources" title="Permanent link">&para;</a></h3>
 <h4 id="training">Training<a class="headerlink" href="#training" title="Permanent link">&para;</a></h4>
-<div class="codehilite"><pre><span></span><code>The process of determining the ideal parameters (weights and biases) comprising a model. During training, a system reads in examples and gradually adjusts parameters. Training uses each example anywhere from a few times to billions of times.
-</code></pre></div>
-
+<p>The process of determining the ideal parameters (weights and biases) comprising a model. During training, a system reads in examples and gradually adjusts parameters. Training uses each example anywhere from a few times to billions of times. </p>
 <h5 id="model">Model<a class="headerlink" href="#model" title="Permanent link">&para;</a></h5>
-<div class="codehilite"><pre><span></span><code><span class="n">In</span><span class="w"> </span><span class="n">general</span><span class="p">,</span><span class="w"> </span><span class="n">any</span><span class="w"> </span><span class="n">mathematical</span><span class="w"> </span><span class="n">construct</span><span class="w"> </span><span class="n">that</span><span class="w"> </span><span class="n">processes</span><span class="w"> </span><span class="n">input</span><span class="w"> </span><span class="n">data</span><span class="w"> </span><span class="ow">and</span><span class="w"> </span><span class="n">returns</span><span class="w"> </span><span class="n">output</span><span class="o">.</span><span class="w"> </span><span class="n">Phrased</span><span class="w"> </span><span class="n">differently</span><span class="p">,</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">model</span><span class="w"> </span><span class="k">is</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="n">set</span><span class="w"> </span><span class="n">of</span><span class="w"> </span><span class="n">parameters</span><span class="w"> </span><span class="ow">and</span><span class="w"> </span><span class="n">structure</span><span class="w"> </span><span class="n">needed</span><span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">system</span><span class="w"> </span><span class="n">to</span><span class="w"> </span><span class="n">make</span><span class="w"> </span><span class="n">predictions</span><span class="o">.</span><span class="w"> </span><span class="n">In</span><span class="w"> </span><span class="n">supervised</span><span class="w"> </span><span class="n">machine</span><span class="w"> </span><span class="n">learning</span><span class="p">,</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">model</span><span class="w"> </span><span class="n">takes</span><span class="w"> </span><span class="n">an</span><span class="w"> </span><span class="n">example</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="n">input</span><span class="w"> </span><span class="ow">and</span><span class="w"> </span><span class="n">infers</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">prediction</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="n">output</span><span class="o">.</span>
-</code></pre></div>
+<p>In general, any mathematical construct that processes input data and returns output. Phrased differently, a model is the set of parameters and structure needed for a system to make predictions. In supervised machine learning, a model takes an example as input and infers a prediction as output.</p>
+<h4 id="supervised-machine-learning">supervised machine learning<a class="headerlink" href="#supervised-machine-learning" title="Permanent link">&para;</a></h4>
+<p>Training a model from features and their corresponding labels. Supervised machine learning is analogous to learning a subject by studying a set of questions and their corresponding answers. After mastering the mapping between questions and answers, a student can then provide answers to new (never-before-seen) questions on the same topic.</p>
+<h4 id="feature">feature<a class="headerlink" href="#feature" title="Permanent link">&para;</a></h4>
+<p>An input variable to a machine learning model. An example consists of one or more features. For instance, suppose you are training a model to determine the influence of weather conditions on student test scores. The following table shows three examples, each of which contains three features and one label:</p>
+<h2 id="features-label">Features                                            Label<a class="headerlink" href="#features-label" title="Permanent link">&para;</a></h2>
+<h2 id="temperature-humidity-pressure-test-score">Temperature     Humidity    Pressure                Test score<a class="headerlink" href="#temperature-humidity-pressure-test-score" title="Permanent link">&para;</a></h2>
+<p>15                  47          998                 92
+19                  34          1020                84
+18                  92          1012                87</p>
+<hr />
+<h4 id="label">label<a class="headerlink" href="#label" title="Permanent link">&para;</a></h4>
+<p>In supervised machine learning, the "answer" or "result" portion of an example.</p>
+<p>Each labeled example consists of one or more features and a label. For example, in a spam detection dataset, the label would probably be either "spam" or "not spam." In a rainfall dataset, the label might be the amount of rain that fell during a certain period.</p>
 
 
 
@@ -1357,6 +1496,8 @@
             </div>
           
           
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
@@ -1395,7 +1536,7 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "search.highlight", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "search.highlight", "content.code.copy", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>

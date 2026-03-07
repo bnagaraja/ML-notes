@@ -13,10 +13,10 @@
       
       
       
-        <link rel="prev" href="..">
+        <link rel="prev" href="../python/tools/sklearn/">
       
       
-        <link rel="next" href="../dl/cnn/">
+        <link rel="next" href="supervised/introduction/">
       
       
         
@@ -126,6 +126,12 @@
     
     
     <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="cyan"  aria-hidden="true"  type="radio" name="__palette" id="__palette_1">
     
   
 </form>
@@ -238,7 +244,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../python/basics.md" class="md-tabs__link">
+        <a href="../python/" class="md-tabs__link">
           
   
   
@@ -606,7 +612,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../python/basics.md" class="md-nav__link">
+      <a href="../python/" class="md-nav__link">
         
   
   
@@ -650,6 +656,96 @@
   
 
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tools
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Tools
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../python/tools/sklearn/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Scikit Learn
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -846,6 +942,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#types-of-ml-systems" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Types of ML Systems
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -919,42 +1026,14 @@
   
   
     <li class="md-nav__item">
-      <a href="supervised/regression.md" class="md-nav__link">
+      <a href="supervised/introduction/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Regression
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="supervised/classification.md" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Classification
+    Supervised Learning
   
 
     
@@ -1453,6 +1532,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#types-of-ml-systems" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Types of ML Systems
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1563,6 +1653,22 @@
 <summary>Simply put</summary>
 <p>A model is a formula (or algorithm) that learns from data and gives output for new input.</p>
 </details>
+<h3 id="types-of-ml-systems">Types of ML Systems<a class="headerlink" href="#types-of-ml-systems" title="Permanent link">&para;</a></h3>
+<p>ML systems fall into one or more of the following categories based on how they learn to make predictions or generate content: </p>
+<ul>
+<li>
+<p><a href="./supervised/introduction">Supervised learning</a></p>
+</li>
+<li>
+<p>Unsupervised learning </p>
+</li>
+<li>
+<p>Reinforcement learning </p>
+</li>
+<li>
+<p>Generative AI </p>
+</li>
+</ul>
 
 
 
@@ -1580,6 +1686,8 @@
             </div>
           
           
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
@@ -1618,7 +1726,7 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "search.highlight", "content.code.copy"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "search.highlight", "content.code.copy", "content.tabs.link"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
