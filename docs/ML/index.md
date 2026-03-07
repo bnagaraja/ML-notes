@@ -74,4 +74,15 @@ In Machine Learning, we:
 ??? tip "Simply put"
     A model is a formula (or algorithm) that learns from data and gives output for new input.
 
+### Types of ML Systems 
+ML systems fall into one or more of the following categories based on how they learn to make predictions or generate content: 
+
+- [Supervised learning](./supervised/introduction)
+
+- Unsupervised learning 
+
+- Reinforcement learning 
+
+- Generative AI 
+
 

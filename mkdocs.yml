@@ -4,6 +4,8 @@ site_author: Nagaraja
 
 theme:
   name: material
+  icon:
+    repo: fontawesome/brands/github
   features:
     - navigation.tabs
     - navigation.sections
@@ -11,12 +13,16 @@ theme:
     - navigation.top
     - search.highlight
     - content.code.copy
+    - content.tabs.link
   extra_css:
   - styles/extra.css
   palette:
     - scheme: default
       primary: indigo
       accent: indigo
+    - scheme: slate
+      primary: indigo
+      accent: cyan  
 
 plugins:
   - search
@@ -41,14 +47,17 @@ nav:
       - Statistics: foundations/statistics.md
 
   - Python:
-      - Python Basics: python/basics.md
+      - Python Basics: python/index.md
       - Numpy & Pandas: python/data_libraries.md
+      - Tools:
+          - Scikit Learn: python/tools/sklearn.md
 
   - Machine Learning:
       - ML Overview: ML/index.md
       - Supervised Learning:
-          - Regression: ML/supervised/regression.md
-          - Classification: ML/supervised/classification.md
+          - Supervised Learning: ML/supervised/introduction.md
+          #- Regression: ML/supervised/regression.md
+          #- Classification: ML/supervised/classification.md
       - Unsupervised Learning:
           - Clustering: ML/unsupervised/clustering.md
       - Model Evaluation: ML/evaluation.md

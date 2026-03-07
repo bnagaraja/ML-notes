@@ -2,3 +2,82 @@
   white-space: pre-wrap !important;
   word-break: break-word;
 }
+
+/* ===== Brand Colors ===== */
+:root {
+  --brand-primary: #1e3a8a;   /* Deep blue */
+  --brand-accent: #0ea5e9;    /* Cyan */
+  --brand-success: #15803d;   /* Green */
+  --brand-warning: #d97706;   /* Orange */
+  --brand-danger: #dc2626;    /* Red */
+}
+
+/* ===== Headings ===== */
+.md-typeset h1 {
+  color: var(--brand-primary);
+  font-weight: 700;
+}
+
+.md-typeset h2 {
+  color: #1f2937;
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 4px;
+}
+
+.md-typeset h3 {
+  color: #374151;
+}
+
+/* ===== Links ===== */
+.md-typeset a {
+  color: var(--brand-accent);
+  font-weight: 500;
+}
+
+.md-typeset a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Code Blocks ===== */
+.md-typeset pre {
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+}
+
+/* Wrap long code lines */
+.md-typeset pre code {
+  white-space: pre-wrap !important;
+  word-break: break-word;
+}
+
+/* ===== Custom Highlight Classes ===== */
+.highlight-primary {
+  color: var(--brand-primary);
+  font-weight: 600;
+}
+
+.highlight-success {
+  color: var(--brand-success);
+  font-weight: 600;
+}
+
+.highlight-warning {
+  color: var(--brand-warning);
+  font-weight: 600;
+}
+
+.highlight-danger {
+  color: var(--brand-danger);
+  font-weight: 600;
+}
+
+/* ===== Table Styling ===== */
+.md-typeset table {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.md-typeset th {
+  background-color: #f3f4f6;
+  font-weight: 600;
+}
